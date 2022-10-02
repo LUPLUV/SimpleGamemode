@@ -1,0 +1,49 @@
+name: SimpleGamemode
+version: v2.0.0
+api-version: 1.19
+author: LUPLUV
+description: 'Lets you enter different Gamemodes easier.'
+website: 'https://lupluv.dev/simplegamemode/'
+main: dev.lupluv.simplegamemode.Main
+
+commands:
+  gamemode:
+    description: 'Switch your gamemode with this command'
+    aliases:
+      - gm
+      - sgm
+      - simplegamemode
+      - simplegm
+  survival:
+    description: 'Enter survival mode'
+    aliases:
+      - gms
+      - sgms
+      - ssurvival
+  creative:
+    description: 'Enter creative mode'
+    aliases:
+      - gmc
+      - sgmc
+      - screative
+  adventure:
+    description: 'Enter adventure mode'
+    aliases:
+      - gma
+      - sgma
+      - sadventure
+  spectator:
+    description: 'Enter spectator mode'
+    aliases:
+      - gms
+      - spec
+      - sp
+      - gmsp
+      - sgmsp
+      - sspectator
+
+permissions:
+  sgm.*:
+    description: 'Sgm commands'
+    children:
+      

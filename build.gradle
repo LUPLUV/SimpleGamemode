@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'dev.lupluv'
-version 'v2.0.1'
+version 'v2.0.3'
 
 repositories {
     mavenCentral()

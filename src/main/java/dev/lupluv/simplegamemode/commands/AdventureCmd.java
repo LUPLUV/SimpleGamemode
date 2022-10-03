@@ -19,6 +19,6 @@ public class AdventureCmd implements CommandExecutor {
             }
         }
 
-        return false;
+        return true;
     }
 }

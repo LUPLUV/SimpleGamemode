@@ -19,6 +19,6 @@ public class SpectatorCmd implements CommandExecutor {
             }
         }
 
-        return false;
+        return true;
     }
 }

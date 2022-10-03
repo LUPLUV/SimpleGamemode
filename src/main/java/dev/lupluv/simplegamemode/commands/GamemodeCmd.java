@@ -97,6 +97,6 @@ public class GamemodeCmd implements CommandExecutor {
             }
         }
 
-        return false;
+        return true;
     }
 }

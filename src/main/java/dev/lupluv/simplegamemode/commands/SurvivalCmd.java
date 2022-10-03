@@ -19,6 +19,6 @@ public class SurvivalCmd implements CommandExecutor {
             }
         }
 
-        return false;
+        return true;
     }
 }

@@ -1,0 +1,65 @@
+specVersion: 1
+type: plugin
+name:
+  de: SimpleGamemode
+  en: SimpleGamemode
+authors:
+  - LUPLUV
+download:
+  url: https://github.com/LUPLUV/SimpleGamemode/releases/download/v2.0.3/SimpleGamemode-v2.0.3.jar
+  name: Download Plugin
+supportedPlatforms:
+  - spigot
+  - paper
+supportedGameVersions: ^1.8
+category: misc
+introduction:
+  de: Dies ist ein einfaches Gamemode-Plugin. Dadurch kannst du deinen Spielmodus mit /gm <0/1/2/3> <player> anstelle von /gamemode creative ändern
+  en: This a Simple Gamemode Plugin. It makes that you can change your Gamemode with /gm <0/1/2/3> <player> instead of /gamemode creative
+description:
+  de: |
+      # Commands
+      ### /gamemode <0/1/2/3> [<player>]:
+          **Aliase:** /gm, /sgm, /simplegamemode, /simplegm
+          **Beschreibung:** Ändere deinen Spielmodus mit diesem Command
+      ### /survival [<player>]:
+          **Aliase:** /gms, /sgms, /ssurvival
+          **Beschreibung:** Betrete den Überlebensmodus
+      ### /creative [<player>]:
+          **Aliase:** /gmc, /sgmc, /screative
+          **Beschreibung:** Betrete den Kreativmodus
+      ### /adventure [<player>]:
+          **Aliase:** /gma, /sgma, /sadventure
+          **Beschreibung:** Betrete den Abenteuermodus
+      ### /spectator [<player>]:
+          **Aliase:** /gms, /spec, /sp, /gmsp, /sgmsp, /sspectator
+          **Beschreibung:** Betrete den Zuschauermodus
+  en: |
+      # Commands
+      ### /gamemode <0/1/2/3> [<player>]:
+          **Aliases:** /gm, /sgm, /simplegamemode, /simplegm
+          **Description:** Switch your gamemode with this command
+      ### /survival [<player>]:
+          **Aliases:** /gms, /sgms, /ssurvival
+          **Description:** Enter survival mode
+      ### /creative [<player>]:
+          **Aliases:** /gmc, /sgmc, /screative
+          **Description:** Enter creative mode
+      ### /adventure [<player>]:
+          **Aliases:** /gma, /sgma, /sadventure
+          **Description:** Enter adventure mode
+      ### /spectator [<player>]:
+          **Aliases:** /gms, /spec, /sp, /gmsp, /sgmsp, /sspectator
+          **Description:** Enter spectator mode
+installation:
+  de: |
+    - Herunterladen der Plugin-Datei
+    - Ablegen der Datei im Plugins-Ordner
+    - Server neustarten
+  en: |
+    - Download the plugin-file
+    - Put the file into your plugins-folder
+    - Restart your server
+tags:
+  - plugin
+  - misc

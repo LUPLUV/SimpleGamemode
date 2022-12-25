@@ -2,7 +2,7 @@
 
  This a Simple Gamemode Plugin. It makes that you can change your Gamemode with /gm <0/1/2/3> <player> instead of /gamemode creative
  
- # Commands
+ ## Commands
       ### /gamemode <0/1/2/3> [<player>]:
           **Aliases:** /gm, /sgm, /simplegamemode, /simplegm
           **Description:** Switch your gamemode with this command

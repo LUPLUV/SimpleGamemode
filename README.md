@@ -3,7 +3,7 @@
  This a Simple Gamemode Plugin. It makes that you can change your Gamemode with /gm <0/1/2/3> <player> instead of /gamemode creative
  
  ### Installation
-      - Download the plugin-file
+      - Download the latest plugin-file via releases
       - Put the file into your plugins-folder
       - Restart your server
 

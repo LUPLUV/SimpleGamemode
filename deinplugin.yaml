@@ -5,9 +5,6 @@ name:
   en: SimpleGamemode
 authors:
   - LUPLUV
-download:
-  url: https://github.com/LUPLUV/SimpleGamemode/releases/download/v2.0.3/SimpleGamemode-v2.0.3.jar
-  name: Download Plugin
 supportedPlatforms:
   - spigot
   - paper

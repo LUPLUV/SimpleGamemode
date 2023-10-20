@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "dev.lupluv"
-version = "0.2.3"
+version = "0.3.1"
 
 repositories {
     mavenCentral()
@@ -16,13 +16,14 @@ repositories {
 }
 
 val shadowDependencies = listOf(
-    "io.papermc.paper:paper-api:1.20.2-R0.1-SNAPSHOT",
     "com.google.code.gson:gson:2.9.1",
     "org.danilopianini:khttp:1.3.1"
 )
 
 dependencies {
     testImplementation(kotlin("test"))
+
+    compileOnly("io.papermc.paper:paper-api:1.20.2-R0.1-SNAPSHOT")
 
     shadowDependencies.forEach {
         implementation(it)
@@ -41,6 +42,6 @@ tasks {
     withType<ShadowJar> {
         mergeServiceFiles()
         configurations = listOf(project.configurations.shadow.get())
-        archiveFileName.set("SimpleGamemode.jar")
+        archiveFileName.set("SimpleGamemode-${version}.jar")
     }
 }
